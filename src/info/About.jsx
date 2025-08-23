@@ -1,4 +1,4 @@
-import { Box, Typography, Grid } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import aboutImage from "../assets/about.png";
 
 export default function About() {
@@ -23,11 +23,11 @@ export default function About() {
         About Me
       </Typography>
 
-      {/* Always in row */}
+      {/* Responsive Row/Column */}
       <Box
         sx={{
           display: "flex",
-          flexDirection: "row", // always row
+          flexDirection: { xs: "column", md: "row" }, // column on small screens
           alignItems: "center",
           gap: 4,
         }}
@@ -39,6 +39,7 @@ export default function About() {
               fontSize: { xs: "0.95rem", md: "1.1rem" },
               color: "text.secondary",
               lineHeight: 1.8,
+              textAlign: { xs: "center", md: "left" }, // center text on small screens
             }}
           >
             Fifth-year Information Engineering student at the University of
