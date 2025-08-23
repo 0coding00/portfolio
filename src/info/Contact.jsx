@@ -101,6 +101,8 @@ export default function Contact() {
           <FaGithub size={30} />
         </IconButton>
       </Stack>
+      <Typography sx={{paddingTop:1}}>0coding0101@gmail.com</Typography>
+      <Typography sx={{paddingTop:1}}>Phone Number : 0969909235</Typography>
     </Box>
   );
 }
