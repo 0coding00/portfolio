@@ -52,7 +52,7 @@ export default function Header() {
           <Button href="#about" sx={{ color: "black", fontWeight: 500 }}>
             About
           </Button>
-          <Button href="#Contact" sx={{ color: "black", fontWeight: 500 }}>
+          <Button href="#contact" sx={{ color: "black", fontWeight: 500 }}>
             Contact
           </Button>
         </Box>
