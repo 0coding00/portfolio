@@ -33,7 +33,7 @@ export default function Header() {
             variant="subtitle1"
             sx={{ color: "text.secondary", fontSize: { xs: "0.9rem", md: "1rem" } }}
           >
-            Frontend Developer
+            Frontend Developer(React JS)
           </Typography>
         </Box>
 
