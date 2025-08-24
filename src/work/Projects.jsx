@@ -81,7 +81,15 @@ export default function Projects() {
            <h4>Description : </h4> Responsive website with manager, driver, and user dashboards,
             accurate maps, and clean UX design.
           </Typography>
-
+             <Typography
+            sx={{
+              mb: 2,
+              color: "text.secondary",
+              fontSize: { xs: "0.9rem", md: "1rem" },
+            }}
+          >
+           <h4>Technologies : </h4> React.js, JavaScript ,TypeScript ,TailWind CSS ,MUI ,Shadcn ,Node.js ,React Query ,SPA ,Animation ,Redux,API Integration.
+          </Typography>
           {/* Images in one row */}
           <h4>
             Images from the project
@@ -138,8 +146,17 @@ export default function Projects() {
           >
            <h4>Description : </h4> Responsive website with manager, and user dashboards,
             add new meal or edit other,Sign up and Log in Authentication, and clean UX design.
+            
           </Typography>
-
+               <Typography
+            sx={{
+              mb: 2,
+              color: "text.secondary",
+              fontSize: { xs: "0.9rem", md: "1rem" },
+            }}
+          >
+           <h4>Technologies : </h4> React.js , JavaScript , CSS ,MUI ,Node.js ,React Query ,SPA ,Redux,API Integration.
+          </Typography>
           {/* Images in one row */}
           <h4>
             Images from the project
@@ -196,7 +213,15 @@ export default function Projects() {
           >
            <h4>Description : </h4> Responsive website ,Mini game with timers and final records, and clean UX design.
           </Typography>
-
+               <Typography
+            sx={{
+              mb: 2,
+              color: "text.secondary",
+              fontSize: { xs: "0.9rem", md: "1rem" },
+            }}
+          >
+           <h4>Technologies : </h4> React.js, JavaScript, Tailwind CSS .
+          </Typography>
           {/* Images in one row */}
           <h4>
             Images from the project
